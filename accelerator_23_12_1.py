@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
+from matplotlib import font_manager
 
 # 한글 폰트 설정
-plt.rcParams["font.family"] = "NanumGothic"  # 사용할 폰트를 설정 (필요 시 설치 필요)
+font_path = "./NanumGothic-Regular.ttf"  # NanumGothic-Regular 폰트 파일 경로
+font_prop = font_manager.FontProperties(fname=font_path)
+plt.rcParams["font.family"] = font_prop.get_name()
 matplotlib.rcParams["axes.unicode_minus"] = False  # 마이너스 기호 깨짐 방지
 
 # 데이터 파일 경로
