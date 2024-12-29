@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 # 데이터 파일 경로
-DATA_PATH = "accelerator_23_12_1.csv"
+DATA_PATH = "./accelerator_23_12_1.csv"
 
 # 데이터 로드 함수
 @st.cache_data
