@@ -1,3 +1,6 @@
+pip install matplotlib
+pip install koreanize-matplotlib
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
