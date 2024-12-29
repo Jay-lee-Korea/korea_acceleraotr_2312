@@ -8,7 +8,7 @@ plt.rcParams["font.family"] = "NanumGothic"  # 사용할 폰트를 설정 (필�
 matplotlib.rcParams["axes.unicode_minus"] = False  # 마이너스 기호 깨짐 방지
 
 # 데이터 파일 경로
-DATA_PATH = "data/accelerator_23_12_1.csv"
+DATA_PATH = "accelerator_23_12_1.csv"
 
 # Streamlit 앱 구성
 def main():
