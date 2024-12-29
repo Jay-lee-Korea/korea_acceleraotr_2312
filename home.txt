@@ -1,0 +1,7 @@
+.
+├── Home.py                  # 메인 페이지 (필수)
+├── pages/                   # 다른 페이지를 위한 폴더
+│   ├── Page1.py             # 페이지 1
+│   ├── Page2.py             # 페이지 2
+├── accelerator_23_12_1.csv  # 데이터 파일
+├── requirements.txt         # 필수 라이브러리 목록
